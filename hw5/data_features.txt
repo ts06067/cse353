@@ -1,0 +1,24 @@
+Attribute Name	Role	Type	Demographic	Description	Units	Missing Values
+poisonous	Target	Categorical				false
+cap-shape	Feature	Categorical		bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s		false
+cap-surface	Feature	Categorical		fibrous=f,grooves=g,scaly=y,smooth=s		false
+cap-color	Feature	Binary		brown=n,buff=b,cinnamon=c,gray=g,green=r, pink=p,purple=u,red=e,white=w,yellow=y		false
+bruises	Feature	Categorical		bruises=t,no=f		false
+odor	Feature	Categorical		almond=a,anise=l,creosote=c,fishy=y,foul=f, musty=m,none=n,pungent=p,spicy=s		false
+gill-attachment	Feature	Categorical		attached=a,descending=d,free=f,notched=n		false
+gill-spacing	Feature	Categorical		close=c,crowded=w,distant=d		false
+gill-size	Feature	Categorical		broad=b,narrow=n		false
+gill-color	Feature	Categorical		black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e, white=w,yellow=y		false
+stalk-shape	Feature	Categorical		enlarging=e,tapering=t		false
+stalk-root	Feature	Categorical		bulbous=b,club=c,cup=u,equal=e, rhizomorphs=z,rooted=r,missing=?		true
+stalk-surface-above-ring	Feature	Categorical		fibrous=f,scaly=y,silky=k,smooth=s		false
+stalk-surface-below-ring	Feature	Categorical		fibrous=f,scaly=y,silky=k,smooth=s		false
+stalk-color-above-ring	Feature	Categorical		brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y		false
+stalk-color-below-ring	Feature	Categorical		brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y		false
+veil-type	Feature	Binary		partial=p,universal=u		false
+veil-color	Feature	Categorical		brown=n,orange=o,white=w,yellow=y		false
+ring-number	Feature	Categorical		none=n,one=o,two=t		false
+ring-type	Feature	Categorical		cobwebby=c,evanescent=e,flaring=f,large=l, none=n,pendant=p,sheathing=s,zone=z		false
+spore-print-color	Feature	Categorical		black=k,brown=n,buff=b,chocolate=h,green=r, orange=o,purple=u,white=w,yellow=y		false
+population	Feature	Categorical		abundant=a,clustered=c,numerous=n, scattered=s,several=v,solitary=y		false
+habitat	Feature	Categorical		grasses=g,leaves=l,meadows=m,paths=p, urban=u,waste=w,woods=d		false
