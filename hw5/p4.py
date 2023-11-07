@@ -7,4 +7,6 @@ theta_norm = theta / np.linalg.norm(theta, axis=0)
 
 x = np.array([[4, 4, 7, -4, 3], [5, -3, -6, 0, 3]])
 
+print("theta_norm: ", theta_norm)
+
 print(np.matmul(theta_norm.T, x))
